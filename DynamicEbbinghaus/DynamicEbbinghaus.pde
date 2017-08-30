@@ -1,8 +1,14 @@
+/*
+ Dynamic Ebbinghaus Illusion
+ Author: Christopher D. Blair, Gideon P. Caplovitz and Ryan E.B. Mruczek, 2014
+ Tags: Dynamic Ebbinghaus Illusion
+*/
+
 boolean active = true;
 
 void setup() {
   size(600, 600);
-  background(255, 255, 255);
+  background(255);
 }
 float x = 150, y = 150, dist = 30, grayR = 20;
 int currentDirection = 0;
@@ -12,8 +18,8 @@ void draw() {
   if (!active) {
     pushStyle(); // lines to turn off the illusion.
     stroke(13, 30, 188);
-    line(35, 0, 635, 600);
-    line(-35, 0, 565, 600);
+    line(35, 0, width + 35, 600);
+    line(-35, 0, width - 35, 600);
     popStyle();
   }
   moveEbbinghaus();

@@ -1,3 +1,9 @@
+/*
+ Ebbinghaus Illusion
+ Author: Hermann Ebbinghaus, 1890
+ Tags: Ebbinghaus Illusion, Titchener illusion
+*/
+
 boolean active = true;
 
 void setup() {
@@ -32,8 +38,8 @@ void ebbinghaus(int x1, int y1, int x2, int y2, int r) {
   if (!active) {
     pushStyle(); // lines to turn off the illusion.
     stroke(13, 30, 188);
-    line(0, x1-r/2, 700, x1-r/2);
-    line(0, x1+r/2, 700, x1+r/2);
+    line(0, x1-r/2, width, x1-r/2);
+    line(0, x1+r/2, width, x1+r/2);
     popStyle();
   }
 }
