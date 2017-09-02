@@ -11,5 +11,6 @@ I created well-known optical illusions using processing:
 * Induced Contrast Asynchrony
     - Author:Shapiro AG, D’Antona AD, Charles JP, Belano LA, Smith JB, Shear-Heyman M (2004)
     - Tags: Induced contrast asynchronies
+* Moiré pattern
 
 You can "turn off" the illusions by clicking on them.
