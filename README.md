@@ -14,6 +14,9 @@ I created well-known optical illusions using processing:
 * Moiré pattern
 * Lilac Chaser
     - Author: Jeremy L Hinton, 2005
-    -Tags: Lilac Chaser, color after-image
-
+    - Tags: Lilac Chaser, color after-image
+* Color Wagon Wheel
+    - Author: Arthur Shapiro, William Kistler, and Alex Rose-Henig, 2012
+    - Tags: Wagon Wheel Effect
+    
 You can "turn off" the illusions by clicking on them.
